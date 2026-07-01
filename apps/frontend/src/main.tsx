@@ -12,8 +12,8 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <Auth0Provider
         useRefreshTokens={true}
         cacheLocation="localstorage"
-        domain="dev-b5d68fi8od5s513y.us.auth0.com"
-        clientId="jepCXrJUcBq34pKdSGGzd2sidUxVpnsL"
+        domain="dev-5lulvzdq837joipn.us.auth0.com"
+        clientId="udvE8BqM9O1WqXWiE9gsfvFHRePvdXI5"
         authorizationParams={{
             redirect_uri: window.location.origin + '/directory',
             audience: '/api',
